@@ -21,7 +21,7 @@ $(document).ready(function(){
 
             // Limpar o formulário após adicionar a tarefa
             $('#tarefa').val('');
-            $('#selecionar-prioridade').val(''); // Ou defina um valor padrão desejado
+            $('#selecionar-prioridade').val('');
         } else {
             alert('Por favor, preencha os campos de tarefa e prioridade.');
         }
