@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #DCE6F2;
+}
+
+.container {
+    margin: 5% auto;
+    max-width: 30%;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+header h1 {
+    color: #1BA698;
+    margin-left: 10px;
+    text-transform:uppercase ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.material-symbols-outlined{
+    color: #1BA698;
+}
+
+input, 
+button, 
+select {
+    padding: 1.5%;
+    border-radius: 10px;
+    border:none;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #828482;
+}
+
+input:focus, select:focus {
+    outline: 1px solid #2F4673;
+}
+
+select #opcao-prioridade {
+    display: none;
+}
+
+button {
+    background-color: #2F4673;
+    color: #F2F2F2;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 3%;
+}
+
+.box-tarefas {
+    padding: 3%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.tag-tarefa{
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0.5% 1.5%;
+    margin-bottom:10px;
+}
+
+.tag-alta-prioridade {
+    background-color: rgba(242,98,65,0.1);
+    color: #F25C84;
+}
+
+.tag-media-prioridade {
+    background-color: rgba(118, 114,242, 0.1);
+    color: #7672F2;
+}
+
+.tag-baixa-prioridade {
+    background-color: rgba(27, 166, 152, 0.1);
+    color: #1BA698;
+}
+
+.alta-prioridade {
+    border-left: 4px solid #F25C84;
+}
+
+.media-prioridade {
+    border-left: 4px solid #7672F2;
+}
+
+.baixa-prioridade {
+    border-left: 4px solid #1BA698;
+}
+
+.nome-tarefa span {
+    cursor: pointer;
+    font-weight: bold;
+    color: #2F4673;
+}
+
+.status-tarefa {
+    font-size: 10px;
+    color: #828482;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}

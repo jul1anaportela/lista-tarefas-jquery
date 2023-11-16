@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="material-symbols-outlined">task_alt</span>
+            <h1>to-do</h1>
+        </header>
+        <form id="form-tarefa">
+            <input type="text" id="tarefa" placeholder="tarefa" required>
+            <select id="selecionar-prioridade" required>
+                <option disabled selected id="opcao-prioridade">Prioridade</option>
+                <option value="alta">alta</option>
+                <option value="media">média</option>
+                <option value="baixa">baixa</option>
+            </select>
+            <button type="button">+ add</button>
+        </form>
+        <ul>
+            <!-- <li>
+                <div class="box-tarefas alta-prioridade">
+                    <span class="tag-tarefa tag-alta-prioridade">alta</span>
+                    <div class="nome-tarefa">
+                        
+                        <span>Nome Tarefa</span>
+                    </div>
+                    <span class="status-tarefa">Concluída</span>
+                </div>
+            </li>
+            <li>
+                <div class="box-tarefas media-prioridade">
+                    <span class="tag-tarefa tag-media-prioridade">média</span>
+                    <div class="nome-tarefa">
+                        <span>Nome Tarefa</span>
+                    </div>
+                    <span class="status-tarefa">Em Andamento</span>
+                </div>
+            </li>
+            <li>
+                <div class="box-tarefas baixa-prioridade">
+                    <span class="tag-tarefa tag-baixa-prioridade">baixa</span>
+                    <div class="nome-tarefa">
+                        <span>Nome Tarefa</span>
+                    </div>
+                    <span class="status-tarefa">Em Andamento</span>
+                </div> -->
+            </li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
